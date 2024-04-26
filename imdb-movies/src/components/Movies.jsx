@@ -3,6 +3,8 @@ import { useEffect, useState, React } from "react";
 import axios from "axios";
 import Pagination from "./Pagination";
 
+
+
 function Movies({ handleAddToWatchList, handleRemoveFromWatchList, watchList }) {
   const [movies, setMovies] = useState([]);
   const [page, setPage] = useState(1);
@@ -19,7 +21,7 @@ function Movies({ handleAddToWatchList, handleRemoveFromWatchList, watchList }) 
   useEffect(() => {
     axios
       .get(
-        `https://api.themoviedb.org/3/movie/popular?api_key=0d88f50dcd5726ea4b588af6f4723a0c&language=en-US&page=${page}`
+        `https://api.themoviedb.org/3/movie/popular?api_key=${import.meta.env.VITE_API_KEY}&language=en-US&page=${page}`
       )
       .then((res) => {
         setMovies(res.data.results);
