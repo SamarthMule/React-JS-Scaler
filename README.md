@@ -1,17 +1,17 @@
-# React JS Free Course
+# React JS Course
 
 Welcome to the React JS Course repository! 🚀
 
 ## Course Overview
 
-Dive into the world of front-end development with our comprehensive free online certification course on React JS. Whether you're a beginner or looking to refresh your skills, this course offers a structured path to mastering React JS, one of the most popular JavaScript libraries for building dynamic and responsive user interfaces. Learn quickly and elevate your web development skills with our expertly crafted modules.
+Dive into the world of front-end development with our comprehensive online certification course on React JS. Whether you're a beginner or looking to refresh your skills, this course offers a structured path to mastering React JS, one of the most popular JavaScript libraries for building dynamic and responsive user interfaces. Learn quickly and elevate your web development skills with our expertly crafted modules.
 
 ## Certificate: ![React Js Course](https://github.com/SamarthMule/React-JS-Scaler/assets/103748997/5adc1e0b-2ef2-4065-8e40-0d76977e8b12)
 
 
 ## What You’ll Learn
 
-The skills that you would learn after taking up this React JS Free Course online course are:
+The skills that you would learn after taking up this React JS Course online course are:
 - Basics of React JS and JSX syntax
 - Creating and managing React components
 - State management and lifecycle methods
@@ -41,7 +41,9 @@ The skills that you would learn after taking up this React JS Free Course online
 - **test**: Contains test scripts and files.
 - **todo-list**: Code for building a ToDo List application using React.
 
-Each folder may have its own README.md file providing further details about the contents and how to use them.
+This repository contains folders corresponding to the different modules and projects covered in the course.
 
-Feel free to explore and contribute to the projects!
+Feel free to explore the content, contribute, and enhance your React JS skills with this free course!
+
+Happy coding! 💻✨
 
