@@ -1,0 +1,25 @@
+/* App.css */
+.mainApp {
+  display: flex;
+  flex-direction: row;
+  justify-items:center;
+  gap : 300px
+}
+
+.parent {
+  border: 5px solid black;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.child {
+  border: 4px solid black;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.gdaughter, .dson {
+  border: 2px solid black;
+  padding: 5px;
+  margin: 10px;
+}
