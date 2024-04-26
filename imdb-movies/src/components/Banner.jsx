@@ -1,7 +1,7 @@
 import React from "react";
 
 function Banner() {
-  const backdropUrl = "https://example.com/backdrop.jpg"; // Replace with the URL of the popular movie backdrop
+  const backdropUrl = ""; // Replace with the URL of the popular movie backdrop
   const movieName = "Popular Movie"; // Replace with the name of the popular movie
 
   return (

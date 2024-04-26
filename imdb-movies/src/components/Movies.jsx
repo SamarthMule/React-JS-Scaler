@@ -9,6 +9,7 @@ function Movies({ handleAddToWatchList, handleRemoveFromWatchList, watchList }) 
   const [movies, setMovies] = useState([]);
   const [page, setPage] = useState(1);
 
+
   const handlePrev = () => {
     if (page === 1) setPage(1);
     else setPage(page - 1);
@@ -51,4 +52,3 @@ function Movies({ handleAddToWatchList, handleRemoveFromWatchList, watchList }) 
 }
 
 export default Movies;
-// https://api.themoviedb.org/3/movie/popular?api_key=0d88f50dcd5726ea4b588af6f4723a0c&language=en-US&page=2
