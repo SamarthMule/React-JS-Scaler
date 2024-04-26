@@ -3,12 +3,9 @@ import { useEffect, useState, React } from "react";
 import axios from "axios";
 import Pagination from "./Pagination";
 
-
-
 function Movies({ handleAddToWatchList, handleRemoveFromWatchList, watchList }) {
   const [movies, setMovies] = useState([]);
   const [page, setPage] = useState(1);
-
 
   const handlePrev = () => {
     if (page === 1) setPage(1);
@@ -28,6 +25,7 @@ function Movies({ handleAddToWatchList, handleRemoveFromWatchList, watchList }) 
         setMovies(res.data.results);
       });
   }, [page]);
+
 
   return (
     <div className="p-5">
