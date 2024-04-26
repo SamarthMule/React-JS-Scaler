@@ -6,6 +6,9 @@ Welcome to the React JS Course repository! 🚀
 
 Dive into the world of front-end development with our comprehensive free online certification course on React JS. Whether you're a beginner or looking to refresh your skills, this course offers a structured path to mastering React JS, one of the most popular JavaScript libraries for building dynamic and responsive user interfaces. Learn quickly and elevate your web development skills with our expertly crafted modules.
 
+## Certificate: ![React Js Course](https://github.com/SamarthMule/React-JS-Scaler/assets/103748997/5adc1e0b-2ef2-4065-8e40-0d76977e8b12)
+
+
 ## What You’ll Learn
 
 The skills that you would learn after taking up this React JS Free Course online course are:
